@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("D:\code.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #128f72;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    border-radius: 50%; /* Optional: Adds a circular border to the image */
+    max-width: 150px; /* Adjust the size as needed */
+    border: 2px solid #333;
+}
+
+.image-container input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dhiviya - Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>ABOUT ME</h1>
+    </header>
+
+    <section id="about">
+        
+        <div class="about-content">
+            <div class="image-container">
+                <input type="file" id="imageInput" accept="image/*" />
+                <img src="C:\Users\Dhivi\OneDrive\Desktop\photo.jpg" alt="Photo" id="uploadedImage" />
+            </div>
+            
+        </div>
+    </section>
+    <h2>Dhiviya chandrasekaran</h2>
+    <h4>__Computer science and engineer__</h4>
+    <p>  I am looking forward to a career that will provide me an opportunity that stimulated intellectual growth and learning.</p>
+    <h2>hobbies</h2>
+    <h4> -drawing</h4>
+    <h4> -designing</h4>
+    <h2>skills</h2>
+    <h4> #knowledge of scripting languages such as html,css,javascript</h4>
+    <h4> #knowledge of programming languages such as c,python</h4>
+    <section id="projects">
+        <h2>Projects</h2>
+        <!-- Include details about your projects -->
+        <div class="project">
+           
+            <h2>Bus ticket booking</h2>
+            
+        </div>
+        <h2>certificates</h2>
+        <div>
+            <p>#c course certificate</p>
+            <p>#c++ certificate</p>
+            <p>#python course certificate</p>
+            <p>#html,css certificate</p>
+            <p>#AI and ML certificate</p>
+       </div>
+        
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email   -dhiviyachandrasekaran093@gmail.com</p>
+        <p>phone no-9042742416</p>
+        <p>linkdin -https://www.linkedin.com/in/dhiviyachandrasekaran/</p>
+        
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
